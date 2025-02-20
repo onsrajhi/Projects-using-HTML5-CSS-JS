@@ -83,4 +83,11 @@ span{
 .girl{
   width: 800px;
   height: 980px;
+  transform: translateX(-5%);
+  transition: right 1s;
+  position: absolute;
+  right: 0;
+}
+.girl:hover {
+  right: 5%;
 }
