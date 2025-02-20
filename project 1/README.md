@@ -37,7 +37,7 @@ Youtube : https://youtu.be/G3e-cpL7ofc?si=XYswRX5i3jKSO7FA
 ---
 
 ## 🎉 Happy Coding! 
-![Project Screenshot](/home/ons/Projects-using-HTML5-and-CSS/project 1)
+![Project Screenshot](https://github.com/onsrajhi/Projects-using-HTML5-and-CSS/blob/5c7b7b73393e7b7db1edd1dcf627b5632be9b707/project%201/Screenshot.png)
 
 
 
