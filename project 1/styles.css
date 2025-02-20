@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: rgb(240, 232, 232);
+}
+
+nav {
+  display: flex;
+  width: 94%;
+  margin: 10px;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.logo {
+  width: 120px; 
+  height: 120px;
+}
+
+nav ul li{
+  display: inline-block; 
+  list-style: none; 
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: rgb(172, 172, 26); 
+  font-weight: bold; 
+}
+nav ul li a:hover{
+  color:gray;
+}
+.main2{
+  margin-left: 50%;
+  margin-top: 1px;
+}
+.main2 h1{
+  font-size: 45px;
+  color: rgb(172, 172, 26);
+  margin-bottom: 25px;
+}
+span{
+  color: rgb(88, 64, 4);
+}
+.main h2{
+  font-size: 20px;
+  color: rgb(172, 172, 26);
+  margin-bottom: 20px;
+  /*margin-left: 10%;*/
+}
+.main2 p{
+  color: rgb(172, 172, 26);
+  line-height: 22px;
+  /*margin-left: 10%;*/
+  margin-bottom: 10%;
+}
+
+.main2 a{
+  background: rgb(172, 172, 26);
+  Padding: 10px 18px;
+  text-decoration: none;
+  color: rgb(29, 28, 28);
+  display: inline-block;
+  margin: 30px 0 10px 9px;
+  margin-right: 20%;
+}
+
+.images{
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  bottom: 22%;
+}
+.girl{
+  width: 800px;
+  height: 980px;
+}
