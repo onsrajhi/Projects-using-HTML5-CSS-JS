@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&display=swap');
+*{
+  margin:0;padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;outline: none;
+
+}
+body{
+  width: 100%;height: 100vh;overflow-x:hidden;
+  background-color: black;color: white;
+}
+
+header{
+  margin-top: 20px;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 9%;
+  background-color: transparent;
+  filter: drop-shadow(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
+}
+.logo{
+  font-size: 2rem;
+  color: #b74b4b;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+}
+nav a {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 4rem;
+  font-weight: 500px;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+nav a:hover,nav.details{
+  color: #b74b4b;
+  border-bottom: 5px solid #b74b4b;
+}
+section{
+  min-height: 100vh;
+  padding: 5rem 9% 5rem;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:8rem;
+}
+.content h1{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+.typing-text{
+  font-size: 4rem;
+  min-width: 280px;
+  margin-bottom: 7rem;
+}
+.typing-text span {
+  position: relative;
+}
+
+.typing-text span::before{
+  content: "software Developer";
+  color: #b74b4b;
+  animation: words 20s infinite;
+}
+
+.typing-text span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 3px solid black;
+  right:-8;
+  animation: cursor 0.6s infinite;
+}
+
+@keyframes cursor{
+  to{
+    border-left: 3px solid #b74b4b;
+  }
+}
+@keyframes words{
+  0%, 20%{
+    content: "web Developer";
+  }
+  21%, 40% {
+    content: "Developer";
+  }
+  41%, 60% {
+    content: "data Scientist";
+  }
+  61%,80%{
+    content: "AI Engineer";
+  }
+  81%,100%{
+    content: "script Writer";
+  }
+}
+
+
+
+.content p{
+  font-size: 25px;
+  margin-bottom: 3rem;
+  word-spacing: 5px;
+  vertical-align: super;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.home-img{
+  border-radius: 50%;
+}
+
+.home-img img{
+  position: relative;
+  width: 32vw;
+  height: 42vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px solid;
+  cursor: pointer;
+  transition: 0.2s linear;
+  margin-top: 4rem;
+}
+.home-img img:hover{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.social-icons a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  color: white;
+  border: 0.1rem solid #b74b4b;
+  font-size: 2rem;
+  border-radius: 50%;
+  margin: 3rem 1.5rem 3rem;
+}
+
+.social-icons a:hover{
+  color: black;
+  transform: scale(1.3) translateY(-5%);
+  background-color: #b74b4b;
+  box-shadow: 0 0 25px #b74b4b;
+}
+
+
+
+
+
+
